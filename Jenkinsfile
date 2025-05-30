@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        // Set any env variables if needed
+        BUILD_ENV = "production"
     }
 
     stages {
